@@ -1,0 +1,17 @@
+2.6.1 :001 > def say
+2.6.1 :002?>   # method body goes here
+2.6.1 :003?>   end
+ => :say 
+2.6.1 :004 > def say (words)
+2.6.1 :005?>   puts words
+2.6.1 :006?>   end
+ => :say 
+2.6.1 :007 > say (" hey bro")
+ hey bro
+ => nil 
+2.6.1 :008 > say( "wassup")
+wassup
+ => nil 
+2.6.1 :009 > say ( "hola")
+hola
+ => nil 
